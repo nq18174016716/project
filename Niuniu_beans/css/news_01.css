@@ -1,0 +1,103 @@
+/* 头部样式 */
+header .nav{
+    padding-top: 20px;
+    padding-left: 240px;
+}
+header .nav li a{
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 40px;
+    height: 48px;;
+}
+header .nav li a:hover{
+    background-color: white;
+    border-bottom: 2px solid #f6ce2a;
+}
+/* 海报图 */
+#banner img{
+    width: 100%;
+}
+/* 内容部分 */
+#top .row a{
+    font-size: 12px;
+}
+#top .row h1{
+    font-size: 24px;
+}
+#top .row h5{
+    font-size: 18px;
+    color: #999999;
+    margin-top: 24px;
+    margin-bottom: 56px;
+}
+#top .row p{
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 36px;
+    text-indent: 2em;
+    line-height: 24px;
+}
+#top .row:last-of-type a{
+    display: block;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f6ce2a;
+    color: white;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+/* 尾部样式 */
+footer{
+    background-color: #333333;
+}
+footer .left{
+    padding-top: 5px;
+    color: white;
+    background-color: #f6ce2a;
+    padding-bottom: 170px;
+}
+footer .left h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+footer .left span{
+    display: block;
+    width: 42px;
+    height: 3px;
+    background-color: white;
+}
+footer .left h2{
+    font-size: 24px;
+}
+footer .left h3{
+    font-size: 42px;
+}
+footer .right .nav{
+    margin-top: 36px;
+    margin-bottom: 48px;
+}
+footer .right .nav a{
+    font-size: 16px;
+    color: #bbbbbb;
+}
+footer .right .nav a:hover{
+    color: black;;
+}
+footer .right p{
+    margin-bottom: 18px;
+}
+footer .right  p:last-of-type{
+    width: 420px;
+    font-size: 14px;
+    color: #999999;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: 24px;
+    margin-top: 24px;
+}

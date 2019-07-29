@@ -1,0 +1,150 @@
+/* 头部样式 */
+header .nav{
+    padding-top: 20px;
+    padding-left: 240px;
+}
+header .nav li a{
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 40px;
+    height: 48px;
+}
+header .nav li a:hover{
+    background-color: white;
+    border-bottom: 2px solid #f6ce2a;
+}
+/* 轮播图样式 */
+.banner{
+    background-color: #f6ce2a;
+}
+.banner .item img{
+    width: 100%;
+}
+.banner .carousel-caption{
+    left: 50%;
+    top: 18%;
+    width: 31%;
+}
+.banner .carousel-caption h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+.banner .carousel-caption h3:last-of-type{
+    font-weight: inherit;
+}
+.banner .carousel-caption a{
+    display: block;
+    width: 148px;
+    height: 56px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 56px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+/* 公司简介样式 */
+#company {
+    margin-bottom: 36px;
+}
+#company .row{
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+#company .row:nth-of-type(2),
+#company .row:nth-of-type(4){
+    background-color: #f3f3f3;
+}
+#company .row h1{
+    font-size: 30px;
+    font-family: '宋体';
+    font-weight: bold;
+    color: #5d5d5d;
+    margin-bottom: 14px;
+    margin-top: 36px;
+}
+#company .row span{
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #f6ce2a;
+}
+#company .row h4{
+    font-size: 18px;
+    font-family: '宋体';
+    color: #999999;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#company .row p{
+    font-size: 16px;
+    font-family: '宋体';
+    color: #666666;
+}
+#company .row:last-of-type img{
+    display: block;
+    margin: 0 auto 24px;
+}
+#company .row:last-of-type h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#company .row:last-of-type p{
+    font-size: 14px;
+}
+#company .row:last-of-type div:first-of-type h4,
+#company .row:last-of-type div:first-of-type p{
+    color: #f6ce2a;
+}
+/* 尾部样式 */
+footer{
+    background-color: #333333;
+}
+footer .left{
+    padding-top: 5px;
+    color: white;
+    background-color: #f6ce2a;
+    padding-bottom: 170px;
+}
+footer .left h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+footer .left span{
+    display: block;
+    width: 42px;
+    height: 3px;
+    background-color: white;
+}
+footer .left h2{
+    font-size: 24px;
+}
+footer .left h3{
+    font-size: 42px;
+}
+footer .right .nav{
+    margin-top: 36px;
+    margin-bottom: 48px;
+}
+footer .right .nav a{
+    font-size: 16px;
+    color: #bbbbbb;
+}
+footer .right .nav a:hover{
+    color: black;;
+}
+footer .right p{
+    margin-bottom: 18px;
+}
+footer .right  p:last-of-type{
+    width: 420px;
+    font-size: 14px;
+    color: #999999;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: 24px;
+    margin-top: 24px;
+}

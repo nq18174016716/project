@@ -1,0 +1,133 @@
+/* 头部样式 */
+header .nav{
+    padding-top: 20px;
+    padding-left: 240px;
+}
+header .nav li a{
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 40px;
+    height: 48px;
+}
+header .nav li a:hover{
+    background-color: white;
+    border-bottom: 2px solid #f6ce2a;
+}
+/* 海报图 */
+#banner{
+    background-color: #f6ce2a;
+}
+#banner .row:first-of-type{
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 64px;
+}
+#banner .row:first-of-type h2{
+    margin-bottom: 18px;
+}
+#banner .row img{
+    display: block;
+    margin: 0 auto;
+}
+/* 锚点 */
+#top .row{
+    background-color: #f6f6f6;
+}
+#top .row ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 36px 10px;
+}
+#top .row a{
+    font-size: 18px;
+}
+#top .row a:hover{
+    text-decoration: none;
+}
+/* 内容样式 */
+#content .row{
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+#content .row:nth-of-type(2),
+#content .row:nth-of-type(4),
+#content .row:nth-of-type(6){
+    background-color: #f6f6f6;
+}
+#content .row img{
+    display: block;
+    margin: 0 auto;
+}
+#content .row h1{
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 56px;
+}
+#content .row:nth-of-type(3) h1,
+#content .row:nth-of-type(6) h1{
+    margin-top: 0px;
+}
+#content .row h2{
+    font-size: 18px;
+    color: #808080;
+    margin-bottom: 48px;
+}
+#content .row p{
+    font-size: 14px;
+    color: #4c4c4c;
+    letter-spacing: 1px;
+}
+/* 尾部样式 */
+footer{
+    background-color: #333333;
+}
+footer .left{
+    padding-top: 5px;
+    color: white;
+    background-color: #f6ce2a;
+    padding-bottom: 170px;
+}
+footer .left h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+footer .left span{
+    display: block;
+    width: 42px;
+    height: 3px;
+    background-color: white;
+}
+footer .left h2{
+    font-size: 24px;
+}
+footer .left h3{
+    font-size: 42px;
+}
+footer .right .nav{
+    margin-top: 36px;
+    margin-bottom: 48px;
+}
+footer .right .nav a{
+    font-size: 16px;
+    color: #bbbbbb;
+}
+footer .right .nav a:hover{
+    color: black;;
+}
+footer .right p{
+    margin-bottom: 18px;
+}
+footer .right  p:last-of-type{
+    width: 420px;
+    font-size: 14px;
+    color: #999999;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: 24px;
+    margin-top: 24px;
+}
