@@ -1,0 +1,107 @@
+/* 公共样式 */
+.header,.content,.footer{
+    width: 1024px;
+    margin: 0 auto;
+}
+.clear{clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+/* 头部样式 */
+.header{
+    margin-bottom: 20px;
+}
+.header .logo{
+    height: 72px;
+    background-image: linear-gradient(to bottom,#afced9,#ffffff);
+    /* background-color: #afced9; */
+}
+.header .logo img{
+    margin-left: 64px;
+    margin-top: 16px;
+}
+.header .logo h1{
+    font-family: '宋体';
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 24px;
+    margin-left: 10px;
+    color: #3366cc;
+}
+.header .logo p{
+    font-size: 12px;
+    font-family: '宋体';
+    color: #999999;
+    margin-top: 30px;
+}
+.header .logo p span img{
+    margin-left: 5px;
+    margin-right: 2px;
+}
+.header .nav{
+    height: 30px;
+    background-color: #5aa7ee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.header .nav ul li a{
+    font-size: 12px;
+    font-family: '宋体';
+    color: white;
+    text-decoration: none;
+    margin-top: 7px;
+    float: left;
+    line-height: 16px;
+    width: 80px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+.header .nav ul li:last-of-type{
+    border-right: none;
+}
+.header .nav p{
+    margin-top: 5px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial;
+    margin-right: 56px;
+}
+.header .banner{
+    position: relative;
+}
+.header .banner img{
+    width: 100%;
+    display: block;
+    margin: 1px auto 0;
+}
+.header .banner p{
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: '宋体';
+    font-weight: bold;
+    top: 40px;
+    right: 180px
+}
+.header .banner p span{
+    display: block;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+/* 尾部样式 */
+.footer{
+    font-size: 12px;
+    font-family: '宋体';
+    padding-bottom: 100px;
+}
+.footer .beybey{
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 2px solid #3366cc;
+}
+.footer p{
+    margin-left: 20px;
+    width: 732px;
+}
+.footer a{
+    margin-right: 50px;
+}
